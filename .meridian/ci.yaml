@@ -1,0 +1,4 @@
+{
+  "pack": "go",
+  "test": "mkdir -p .meridian-reports && gotestsum --junitfile .meridian-reports/junit.xml --format testname -- ./..."
+}
